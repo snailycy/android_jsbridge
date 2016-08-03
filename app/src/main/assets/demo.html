@@ -2,7 +2,7 @@
 <head>
     <script type="text/javascript">
         function showToast(){
-            var json = JSON.stringify({"content":"show me"});
+            var json = JSON.stringify({"content":"js call native!"});
             alert("myjsbridge:///request?class=JSUIControl&method=showToast&params="+
              encodeURIComponent(json)+"&callId=1");
         }
