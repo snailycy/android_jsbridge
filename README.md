@@ -1,2 +1,1 @@
-# android_jsbridge
-android jsbridge，js调用java，java回调js
+## 此项目是安卓与js交互的一个bridge，其中js调用android使用alert的方式，两端传递的数据遵守约定的协议
