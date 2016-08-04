@@ -1,5 +1,5 @@
 ##JSBridge
-对js与android交互进行的封装，没有js注入漏洞，安全可靠，兼容android所有系统版本
+对js与android交互进行的封装，可自定义协议，没有js注入漏洞，安全可靠，兼容android所有系统版本
 
 ##用法
     //1.实例化JSBridge，配置WebView
