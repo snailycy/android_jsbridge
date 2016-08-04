@@ -9,6 +9,7 @@
 
         window.myjsbridge={
             callbackFromNative:function(callId,callType,params){
+                alert("callback from native");
                 alert("callId = "+callId+" , callType = "+callType+" , params = "+params);
             }
         }
