@@ -1,7 +1,7 @@
-##JSBridge
+## JSBridge
 对js与android交互进行的封装，可自定义协议，没有js注入漏洞，安全可靠，兼容android所有系统版本
 
-##用法
+## 用法
     //1.实例化JSBridge，配置WebView
     JSBridge jsBridge = new JSBridge(this, webview);
     jsBridge.configWebView();
@@ -9,7 +9,7 @@
     //2.WebView 加载网页资源
     webview.loadUrl("file:///android_asset/demo.html");
 
-##项目说明
+## 项目说明
 1.js使用alert方式调用android接口：
 
     var json = JSON.stringify({"content":"js call native!"});
